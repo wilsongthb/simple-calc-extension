@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "version": "1",
+  "required_api_version": "^2.0.0",
+  "name": "simple-calc",
+  "description": "Only format de result of calc",
+  "developer_name": "Wilson Pilco",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "simple_calc_kw",
+      "type": "keyword",
+      "name": "keyword",
+      "description": "",
+      "default_value": "="
+    }
+  ]
+}
