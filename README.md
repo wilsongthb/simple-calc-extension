@@ -10,6 +10,6 @@ Format the eval expresion to calc
 
 With the extension
 ```bash
->>> "{:.8}".format(56-113.67)
-'-57.67'
+>>> "{:.8}".format(56-113.6)
+'-57.6'
 ```
